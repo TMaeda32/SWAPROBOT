@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{78a5741f-073e-4cb5-8b3c-c08106218b3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Library">
+      <UniqueIdentifier>{7512f5e9-6ca9-47a3-92df-e0c967daaa2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Player">
+      <UniqueIdentifier>{d298dd38-4b56-43b3-9aa2-8d8142d1986a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Stage">
+      <UniqueIdentifier>{d1c67f2a-6a69-4e95-9971-339af71fd7f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene">
+      <UniqueIdentifier>{8ffe563a-5c6a-4db2-8313-7f2072321ada}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Library\CBaseScene.cpp">
+      <Filter>src\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Library\CDirectXGraphics.cpp">
+      <Filter>src\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Library\CMesh.cpp">
+      <Filter>src\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Library\CSceneManager.cpp">
+      <Filter>src\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Library\CTexture.cpp">
+      <Filter>src\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stage\CStage.cpp">
+      <Filter>src\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player\CJump.cpp">
+      <Filter>src\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player\CNitro.cpp">
+      <Filter>src\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player\CPlayer.cpp">
+      <Filter>src\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Library\CObject.cpp">
+      <Filter>src\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Library\CObjectManager.cpp">
+      <Filter>src\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player\CStrong.cpp">
+      <Filter>src\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player\CPropeller.cpp">
+      <Filter>src\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stage\CChangeArmItem.cpp">
+      <Filter>src\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stage\CChangeLegItem.cpp">
+      <Filter>src\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\CGame.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\CTitle.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\CResult.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Library\CBaseScene.h">
+      <Filter>src\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Library\CDirectXGraphics.h">
+      <Filter>src\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Library\CMesh.h">
+      <Filter>src\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Library\CSceneManager.h">
+      <Filter>src\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Library\CTexture.h">
+      <Filter>src\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Library\Library.h">
+      <Filter>src\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stage\CStage.h">
+      <Filter>src\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player\CJump.h">
+      <Filter>src\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player\CNitro.h">
+      <Filter>src\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player\CPlayer.h">
+      <Filter>src\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Library\CObject.h">
+      <Filter>src\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Library\CObjectManager.h">
+      <Filter>src\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player\CStrong.h">
+      <Filter>src\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player\CPropeller.h">
+      <Filter>src\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stage\CChangeArmItem.h">
+      <Filter>src\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stage\CChangeLegItem.h">
+      <Filter>src\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\CGame.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\CTitle.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\CResult.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
